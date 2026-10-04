@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sldrnc"
+version = "1.0.0"
+description = "SLD-RNC (Self-correcting Learned Dynamics for Real-time Neural Control): fast learned dynamics for robots and machines"
+readme = "README.md"
+license = {text = "MIT (Python API source); the bundled compiled library: SLD-RNC binary licence"}
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.20"]
+
+[project.optional-dependencies]
+onnx = ["onnx"]
+torch = ["torch"]
+
+[tool.setuptools]
+packages = ["sldrnc"]
+
+[tool.setuptools.package-data]
+# the compiled library for each platform (placed by scripts/build_windows.ps1, CMake or scripts/build_cross.py)
+sldrnc = ["_native/*/*.dll", "_native/*/*.so", "_native/*/*.dylib", "py.typed"]

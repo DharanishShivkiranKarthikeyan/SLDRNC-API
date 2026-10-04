@@ -1,0 +1,4 @@
+{
+  global: sldrnc_*;
+  local: *;
+};

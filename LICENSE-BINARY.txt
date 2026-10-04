@@ -1,0 +1,47 @@
+SLD-RNC BINARY LICENCE
+
+Copyright (c) 2026 Dharanish Karthikeyan ("Licensor"). All rights reserved.
+
+This licence applies to the compiled SLD-RNC library: sldrnc.dll, sldrnc.lib, libsldrnc.so and libsldrnc.dylib, in
+any version, together with any updates the Licensor provides (the "Library"). The headers, Python package source,
+examples and documentation that come with it are licensed separately, under LICENSE.txt.
+
+1. Licence grant. Subject to the terms below, the Licensor grants you a non-exclusive, worldwide, royalty-free,
+   non-transferable licence to:
+   (a) use the Library, including in production, [for any purpose / for non-commercial purposes only]; and
+   (b) redistribute the Library in unmodified binary form, but only as part of, or together with, your own software
+       or hardware product ("Your Product"), and not as a stand-alone library.
+
+2. Restrictions. You may not, and may not allow anyone else to:
+   (a) modify, adapt, translate or create derivative works of the Library;
+   (b) reverse engineer, decompile or disassemble the Library, or otherwise try to obtain its source code, internal
+       structure or algorithms, except to the extent that applicable law expressly permits this despite this
+       restriction;
+   (c) remove or alter any copyright or licence notice in or with the Library;
+   (d) sell, rent, lease or sublicense the Library on its own, separately from Your Product.
+
+3. Redistribution. If you redistribute the Library as part of Your Product, you must (a) include a copy of this
+   licence, or terms that protect the Licensor at least as much, and (b) not grant anyone rights in the Library
+   beyond those in this licence.
+
+4. Your data and models. Models you train with the Library, the data you use, and the predictions you obtain belong
+   to you. The Licensor claims no rights in them.
+
+5. Ownership. The Library is licensed, not sold. The Licensor keeps all rights, title and interest in the Library,
+   including all intellectual property rights, except as expressly granted in section 1.
+
+6. Safety. The Library is not certified for any safety-critical use. If you use it in a machine that can cause injury
+   or damage, you alone are responsible for validating its behaviour in your system and for providing independent
+   safety functions.
+
+7. No warranty. THE LIBRARY IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+   LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND NON-INFRINGEMENT.
+
+8. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY
+   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, OR FOR LOSS OF PROFITS, DATA OR USE, ARISING OUT
+   OF OR IN CONNECTION WITH THE LIBRARY OR THIS LICENCE, HOWEVER CAUSED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+   DAMAGES.
+
+9. Termination. This licence ends automatically if you breach it. On termination you must stop using and
+   distributing the Library. Copies already lawfully distributed to your customers as part of Your Product remain
+   licensed to them. Sections 4 to 10 survive termination.
